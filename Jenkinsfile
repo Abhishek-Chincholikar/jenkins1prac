@@ -18,8 +18,9 @@ pipeline {
             steps {
                 echo 'Exectuing the program...'
                 bat 'java Hello'
-            }
         }
+    }
+}
         post{
             success{
                 echo'Pipeline built Successfully'
@@ -29,4 +30,3 @@ pipeline {
             }
         }
     }
-}
