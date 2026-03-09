@@ -2,7 +2,7 @@ pipeline{
   agent any
 
   stages{
-    stage('Checkout){
+    stage('Checkout'){
       steps{
           git'https://github.com/Abhishek-Chincholikar/jenkins1prac.git'      
       }
